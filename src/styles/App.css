@@ -1,12 +1,71 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.menu-section {
+  text-align: center;
+  margin: 2rem 0;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.title {
+  margin-bottom: 2rem;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin: 0.5rem auto;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  gap: 1rem;
+}
+
+.filter-btn {
+  background: #c59d5f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.filter-btn:hover {
+  background: #d9b38c;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  gap: 1rem;
+  background: #f8f8f8;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.menu-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.item-info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.price {
+  color: #c59d5f;
+}
+
+.item-text {
+  margin-top: 0.5rem;
+  color: #7d7d7d;
 }
